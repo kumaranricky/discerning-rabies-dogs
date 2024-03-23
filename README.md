@@ -1,4 +1,4 @@
-# discerning-rabies-dogs
+# Discerning the Rabies dogs using Deep learning
 
 
  
@@ -133,3 +133,50 @@ else it is Normal. If No Detection have high priority among the features then th
 assumed as No Dog Detected. The Rab, Nor and No_Detect variables denotes the same. i.e. if Rab
 is greater, the result will be Rabies. If Nor is greater, result will be Normal. IfNo_Detect is
 greater, the result will be No Dog Detected.
+
+
+## Hardware requirements
+
+✔ Laptop with the below requirements
+✔ 8 GB RAM
+✔ 8 Gen Intel Core i3
+
+A laptop with 8 GB RAM and an 8th Generation Intel Core i3 processor meets the minimum hardware requirements for running Python-based development environments and executing moderate computational tasks efficiently.
+
+## Software requirements
+
+➢	Python (Programming Language): Utilized for implementing the system's algorithms and integrating various components.
+
+➢	OpenCV (Open Source Computer Vision Library): Used for video processing, image manipulation, and drawing annotations on frames.
+
+➢	InceptionV3: Pretrained model used for extracting features from input data.
+
+➢	NumPy and Math Libraries: Employed for mathematical calculations and array operations required for distance measurement and geometric analysis.
+
+➢	IDE (Integrated Development Environment): Such as PyCharm, Jupyter Notebook, or Visual Studio Code, for code development and debugging.
+
+➢	Video Editing Software: Optional but may be used for preprocessing video data and editing footage for testing and validation purposes.
+
+## System Architecture
+![Screenshot (652)](https://github.com/kumaranricky/discerning-rabies-dogs/assets/75243072/5a9ed412-c297-44e9-aca0-ceafb100f54f)
+
+
+## Output
+![Screenshot (653)](https://github.com/kumaranricky/discerning-rabies-dogs/assets/75243072/d0f0dbe2-47ad-4dca-9117-3f55914dde23)
+
+
+## Result
+The Rabies Detection System presents a sophisticated and innovative solution to combat the spread of rabies among dog populations. By harnessing the power of deep learning algorithms, including Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), the system can accurately identify and classify behaviors associated with rabies-infected dogs from video footage. This early detection capability is crucial for timely intervention and prevention of further transmission, thereby contributing significantly to public health and safety efforts. 
+
+Furthermore, the system's real-time monitoring capabilities, coupled with its user-friendly interface and comprehensive security measures, ensure its effectiveness and reliability in diverse settings. As a scalable and adaptable solution, the Rabies Detection System has the potential to make a significant impact on rabies control efforts worldwide, setting new standards in identity verification and enhancing the overall well-being of communities. Through ongoing refinement and collaboration with stakeholders, the system aims to continually improve and evolve, ultimately becoming an indispensable tool in the fight against rabies.
+
+## Reference
+
+[1] Kay, W., et al.: The kinetics human action video dataset.  
+[2] Kuehne, H., Jhuang, H., Garrote, E., Poggio, T., Serre, T.: Hmdb: a large video database for human motion recognition. In: 2011 International Conference on Computer Vision, pp. 2556–2563. IEEE 
+[3]	Tran, D., Wang, H., Torresani, L., Ray, J., LeCun, Y., Paluri, M.: A closer look at spatiotemporal convolutions for action recognition. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 6450–6459 (2018). 
+[4]	Tran, D., Bourdev, L., Fergus, R., Torresani, L., Paluri, M.: Learning spatiotemporal features with 3D convolutional networks. In: Proceedings of the IEEE International Conference on Computer Vision, pp. 4489–4497 (2015)
+[5]	Carreira, J., Zisserman, A.: Quo vadis, action recognition? a new model and the kinetics dataset. In: proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 6299–6308 (2017) 
+[6]	Harper, F.M., Konstan, J.A.: The movielens datasets: history and context. ACM Trans. Interact. Intell. Syst. (TIIS) 5(4), 1–19 (2015)
+
+
